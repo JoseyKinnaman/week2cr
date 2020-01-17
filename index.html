@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <head>
-
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Programming Language Suggester</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h1>What type of programming language is right for me?</h1>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">How old are you?</label>
+            <input type="age" class="form-control" id="age" placeholder="Age">
+          </div>
+          <div class="form-group">
+            <label for="choice">Do you want to code professionally?</label>
+            <select class="form-group">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="choice">Do you have...</label>
+            <select class="form-group">
+              <option>Dial up...</option>
+              <option>WiFi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="choice">Do you hate yourself?</label>
+            <select class="form-group">
+              <option>YES</option>
+              <option>no</option>
+            </select>
+          </div>
+          <div>
+            <label for="choice">Do you prefer?</label>
+            <select class="form-group">
+              <option>Modern and simple</option>
+              <option>Easy and fun</option>
+            </select>
+        </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

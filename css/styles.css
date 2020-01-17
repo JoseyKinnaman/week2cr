@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(100, 236, 223);
+  padding: 20px;
+}
