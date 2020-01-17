@@ -8,3 +8,13 @@ body {
   background-color: rgb(100, 236, 223);
   padding: 20px;
 }
+
+#answer {
+  display: none;
+}
+
+#age {
+  width:35%;
+  float: right;
+}
+
