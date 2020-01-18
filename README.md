@@ -19,7 +19,7 @@
 
 ## Known Bugs
 
-Age submits to a dead end.
+Age input submits to a dead end.
 
 ## Support and contact details
 
