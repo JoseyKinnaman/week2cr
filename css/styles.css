@@ -9,7 +9,15 @@ body {
   padding: 20px;
 }
 
-#answer {
+#Java {
+  display: none;
+}
+
+#Csharp {
+  display: none;
+}
+
+#Ruby {
   display: none;
 }
 
