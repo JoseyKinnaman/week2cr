@@ -1,13 +1,18 @@
 $(document).ready(function() {
-  $("form").submit(function(event) {
-   pro =$("option#").val();
-    
- console.log(pro) 
+  $("form#tech").submit(function(event){
+  
+  var career = $("select#pro").val();
+  var internet = $("select#inter").val();
+  var hate = $("select#hate").val();
+  var prefer = $("select#prefer").val();
 
-//   if ( === "no" &&  === "yes") {
-    
-//     $("#").show();
-// } else if ( === "no" &&  === "no") {
+ if (career === "no" && hate === "yes") {
+    $("#java").show();
+ }
+
+ if (hate ==="no" && prefer === "MS") {
+   $("#csharp").show();
+ }
    
 //     $("#").show();
 // } else if ( === "yes" &&  === "no") {
@@ -18,5 +23,4 @@ $(document).ready(function() {
 // }
 
 event.preventDefault();
-});
 });
