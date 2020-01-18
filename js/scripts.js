@@ -10,17 +10,16 @@ $(document).ready(function() {
     $("#java").show();
  }
 
- if (hate ==="no" && prefer === "MS") {
+ if (hate === "no" && prefer === "MS") {
    $("#csharp").show();
  }
    
-//     $("#").show();
-// } else if ( === "yes" &&  === "no") {
-  
-//     $("").show();
-// } else {
-//     $("").show();
-// }
+ if (hate === "no" && prefer === "EF"){
+   $("#Ruby").show();
+ } else if (internet=== "WiFi"){
+   $("#Java").show();
+ }
 
 event.preventDefault();
+  });
 });
