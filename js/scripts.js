@@ -16,7 +16,7 @@ $(document).ready(function() {
    
  if (hate === "no" && prefer === "EF") {
    $("#Ruby").show();
- } else if (internet=== "WiFi"){
+ } else if (internet=== "DU"){
    $("#Java").show();
  }
 

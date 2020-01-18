@@ -1,12 +1,19 @@
 body {
   background-color: black;
-  font-family: fantasy
+  font-family: monospace;
+  margin-top: auto;
+}
+
+h1 {
   text-align: center;
 }
 
 .container {
   background-color: rgba(252, 255, 47, 0.897);
   padding: 20px;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #Java {
@@ -21,8 +28,5 @@ body {
   display: none;
 }
 
-#age {
-  width:60;
-  float: right;
-}
+
 
