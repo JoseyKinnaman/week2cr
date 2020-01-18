@@ -19,7 +19,7 @@
 
 ## Known Bugs
 
-_submit form is not showing results
+Age submits to a dead end.
 
 ## Support and contact details
 
