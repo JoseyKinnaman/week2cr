@@ -9,7 +9,7 @@ h1 {
 }
 
 .container {
-  background-color: rgba(252, 255, 47, 0.897);
+  background-image: linear-gradient(to right top, #10e3db, #5ee3db, #84e3dc, #a1e2dc, #bae1dd);
   padding: 20px;
   margin: 0 auto;
   margin-top: 5%;

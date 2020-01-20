@@ -16,8 +16,9 @@ $(document).ready(function() {
    
  if (hate === "no" && prefer === "EF") {
    $("#Ruby").show();
- } else if (internet=== "DU"){
+    } else if (internet === "DU") {
    $("#Java").show();
+
  }
 
 event.preventDefault();
